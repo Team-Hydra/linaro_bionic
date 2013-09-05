@@ -32,9 +32,9 @@
 #include <math.h>
 #define INLINE_KERNEL_COSDF
 #define INLINE_KERNEL_SINDF
-#include "src/math_private.h"
-#include "src/k_cosf.c"
-#include "src/k_sinf.c"
+#include "upstream-freebsd/lib/msun/src/math_private.h"
+#include "upstream-freebsd/lib/msun/src/k_cosf.c"
+#include "upstream-freebsd/lib/msun/src/k_sinf.c"
 
 /* Small multiples of pi/2 rounded to double precision. */
 static const double
